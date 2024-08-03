@@ -70,7 +70,6 @@ Certifique-se de ter as seguintes ferramentas instaladas:
     ```bash
     php artisan serve
 
-
 ## Verificação do Banco de Dados
 - Acesse o phpMyAdmin em http://localhost/phpmyadmin.
 - Verifique se o banco de dados e as tabelas foram criados corretamente.
