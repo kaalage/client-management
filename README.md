@@ -37,6 +37,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
    cp .env.example .env
 
    Edite o arquivo .env com suas configurações de banco de dados (exemplo com XAMPP):
+
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
@@ -60,7 +61,12 @@ Certifique-se de ter as seguintes ferramentas instaladas:
     ```bash
     npm run dev
 
-8. **Inicie o servidor de desenvolvimento**:
+8. **Verifique o link de armazenamento**:
+    Certifique-se de que o link simbólico para a pasta de armazenamento foi criado. No Laravel, você pode criar um link simbólico para a pasta de armazenamento com o comando:
+    ```bash
+    php artisan storage:link
+
+9. **Inicie o servidor de desenvolvimento**:
     ```bash
     php artisan serve
 
